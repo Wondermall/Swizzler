@@ -3,9 +3,9 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-podfile: Sample/Podfile
+podfile: Example/Podfile
 before_install:
-- pod install --project-directory=Sample
+- pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
