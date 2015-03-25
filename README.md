@@ -8,7 +8,7 @@
 
 ## Usage
 
-Vanill
+Vanilla swizzling:
 
 ```objectivec
 SEL setObjectSelector = @selector(setObject:atIndex:);
