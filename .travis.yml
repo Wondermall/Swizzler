@@ -5,9 +5,10 @@
 language: objective-c
 podfile: Example/Podfile
 before_install:
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Swizzler.xcworkspace -scheme Swizzler-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace Example/Swizzler.xcworkspace -scheme Swizzler-Example -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
