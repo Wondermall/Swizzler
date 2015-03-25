@@ -80,7 +80,7 @@ context(@"Instance method", ^{
         it(@"returns original method", ^{
             __block IMP originalImp = [Dog wml_replaceInstanceMethod:@selector(eatFood:) withBlock:^BOOL(Dog *dog, NSUInteger food){
                 if (food != 0xdeadbeef) {
-                    return originalImp(dog, @selector(eatFood:), food);
+                    return (BOOL)originalImp(dog, @selector(eatFood:), food);
                 }
                 return YES;
             }];
