@@ -1,10 +1,10 @@
 # Swizzler
 
-[![Build Status](https://travis-ci.org/Wondermall/Swizzler.svg?branch=master&style=flat)](https://travis-ci.org/Wondermall/Swizzler)
-[![Version](https://img.shields.io/cocoapods/v/Swizzler.svg?style=flat)](http://cocoapods.org/pods/Swizzler)
-[![License](https://img.shields.io/cocoapods/l/Swizzler.svg?style=flat)](http://cocoapods.org/pods/Swizzler)
-[![Platform](https://img.shields.io/cocoapods/p/Swizzler.svg?style=flat)](http://cocoapods.org/pods/Swizzler)
-
+[![Build Status](https://travis-ci.org/Wondermall/Swizzler.svg?branch=master&style=flat-square)](https://travis-ci.org/Wondermall/Swizzler)
+[![Version](https://img.shields.io/cocoapods/v/Swizzler.svg?style=flat-square)](http://cocoapods.org/pods/Swizzler)
+[![License](https://img.shields.io/cocoapods/l/Swizzler.svg?style=flat-square)](http://cocoapods.org/pods/Swizzler)
+[![Platform](https://img.shields.io/cocoapods/p/Swizzler.svg?style=flat-square)](http://cocoapods.org/pods/Swizzler)
+[![Twitter: @zats](https://img.shields.io/badge/contact-@zats-blue.svg?style=flat-square)](https://twitter.com/zats)
 
 ## Usage
 
