@@ -10,29 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "Swizzler"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Swizzler."
+  s.summary          = "Swizzling done right"
   s.description      = <<-DESC
-                       An optional longer description of Swizzler
+                       Swizzling done right:
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       * Swizzling done right
+                       * Blocks API
+                       * Original implementation on your fingertips
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Swizzler"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Wondermall/Swizzler"
   s.license          = 'MIT'
   s.author           = { "Sash Zats" => "sash@zats.io" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Swizzler.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Wondermall/Swizzler.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/zats'
 
-  s.platform     = :ios, '7.0'
+  s.ios.platform     = '7.0'
+  s.osx.platform     = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'Swizzler' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Pod/**/*'
 end

@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.2)
+  - Specta (0.4.0)
+  - Swizzler (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - Swizzler (from `../`)
+
+EXTERNAL SOURCES:
+  Swizzler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
+  Swizzler: 46bbdc50910d896e34c483de1881de12c8d0dbdc
+
+COCOAPODS: 0.36.0
