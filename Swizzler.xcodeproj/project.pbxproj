@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5CB1721B1AFECCED00776062 /* Swizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB1721A1AFECCED00776062 /* Swizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CB172311AFECD5D00776062 /* WMLSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB1722F1AFECD5D00776062 /* WMLSwizzler.h */; };
+		5CB172311AFECD5D00776062 /* WMLSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB1722F1AFECD5D00776062 /* WMLSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CB172321AFECD5D00776062 /* WMLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB172301AFECD5D00776062 /* WMLSwizzler.m */; };
 /* End PBXBuildFile section */
 
@@ -113,7 +113,7 @@
 				};
 			};
 			buildConfigurationList = 5CB1720D1AFECCCB00776062 /* Build configuration list for PBXProject "Swizzler" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
